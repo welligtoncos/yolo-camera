@@ -1,0 +1,6 @@
+conda activate admin_3_pandas
+pip install -r requirements.txt
+
+
+para rodar
+python detect.py --weights yolov5s.pt --source 0
