@@ -1,6 +1,18 @@
 conda activate admin_3_pandas
 pip install -r requirements.txt
 
+python -m venv venv
+venv\Scripts\Activate.ps1
 
-para rodar
+
+para rodar local
 python detect.py --weights yolov5s.pt --source 0
+
+
+ligar camera no wifi
+admin
+@Well32213115
+
+rodar com camera local
+ python detect.py --weights yolov5s.pt --source "rtsp://admin:@Well32213115@192.168.0.108:554/cam/realmonitor?channel=1&subtype=0"
+
