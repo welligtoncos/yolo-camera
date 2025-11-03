@@ -6,7 +6,7 @@ user = "admin"
 senha = "FCBPJA46"
 
 urls = [
-    f"rtsp://admin:FCIP8J46@192.168.0.108:554/cam/realmonitor?channel=1&subtype=0",  # HD 
+    "rtsp://admin:FCIP8J46@192.168.0.108:554/cam/realmonitor?channel=1&subtype=0",  # HD
 ]
 
 for url in urls:
